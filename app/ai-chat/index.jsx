@@ -30,7 +30,7 @@ export default function AIChatScreen() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const flatRef = useRef(null);
-  const API_BASE = `https://${process.env.EXPO_PUBLIC_DOMAIN}`;
+  const API_BASE = `${import.meta.env.VITE_API_URL || 'https://api-server-qlw3.onrender.com'}`;
 
   const sendMessage = async (text) => {
     const content = (text || input).trim();
