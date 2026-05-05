@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "smart-a01",
+    "staging": "smart-a01"
+  },
+  "targets": {},
+  "etags": {}
+}

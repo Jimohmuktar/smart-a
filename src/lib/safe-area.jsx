@@ -1,0 +1,17 @@
+export function useSafeAreaInsets() {
+  return { top: 0, bottom: 0, left: 0, right: 0 };
+}
+
+export function SafeAreaProvider({ children }) {
+  return children;
+}
+
+export function SafeAreaView({ children, style }) {
+  return children;
+}
+
+export function useSafeAreaFrame() {
+  return { x: 0, y: 0, width: window.innerWidth, height: window.innerHeight };
+}
+
+export const SafeAreaInsetsContext = { Consumer: ({ children }) => children({ top: 0, bottom: 0, left: 0, right: 0 }) };

@@ -1,0 +1,71 @@
+export const QUIZ_CATEGORIES = ["Mathematics", "English", "Science", "Nigerian Studies", "Technology", "Economics"];
+
+export const QUIZ_QUESTIONS = [
+  { id: "m1", category: "Mathematics", difficulty: "Easy", question: "What is the value of π (pi) to two decimal places?", options: ["3.14", "3.12", "3.16", "3.18"], answer: "3.14" },
+  { id: "m2", category: "Mathematics", difficulty: "Medium", question: "Solve: If 2x + 5 = 15, what is x?", options: ["5", "4", "6", "3"], answer: "5" },
+  { id: "m3", category: "Mathematics", difficulty: "Medium", question: "What is the derivative of x²?", options: ["2x", "x²", "2", "x"], answer: "2x" },
+  { id: "m4", category: "Mathematics", difficulty: "Hard", question: "The sum of interior angles of a hexagon is:", options: ["720°", "540°", "900°", "360°"], answer: "720°" },
+  { id: "m5", category: "Mathematics", difficulty: "Easy", question: "What is 15% of 200?", options: ["30", "25", "35", "20"], answer: "30" },
+  { id: "e1", category: "English", difficulty: "Easy", question: "Which of these is an adverb?", options: ["Quickly", "Quick", "Quicker", "Quicken"], answer: "Quickly" },
+  { id: "e2", category: "English", difficulty: "Medium", question: "Identify the correct sentence:", options: ["She don't know", "She doesn't know", "She not know", "She knowing not"], answer: "She doesn't know" },
+  { id: "e3", category: "English", difficulty: "Medium", question: "What is the synonym of 'Diligent'?", options: ["Hardworking", "Lazy", "Careless", "Absent"], answer: "Hardworking" },
+  { id: "e4", category: "English", difficulty: "Hard", question: "Which literary device is used in 'The wind whispered through the trees'?", options: ["Personification", "Simile", "Metaphor", "Hyperbole"], answer: "Personification" },
+  { id: "e5", category: "English", difficulty: "Easy", question: "The plural of 'child' is:", options: ["Children", "Childs", "Childrens", "Childes"], answer: "Children" },
+  { id: "s1", category: "Science", difficulty: "Easy", question: "What is the chemical symbol for water?", options: ["H₂O", "CO₂", "O₂", "H₂"], answer: "H₂O" },
+  { id: "s2", category: "Science", difficulty: "Medium", question: "Which organ produces insulin?", options: ["Pancreas", "Liver", "Kidney", "Spleen"], answer: "Pancreas" },
+  { id: "s3", category: "Science", difficulty: "Medium", question: "What force keeps planets in orbit?", options: ["Gravity", "Magnetism", "Friction", "Tension"], answer: "Gravity" },
+  { id: "s4", category: "Science", difficulty: "Hard", question: "The speed of light is approximately:", options: ["3×10⁸ m/s", "3×10⁶ m/s", "3×10¹⁰ m/s", "3×10⁴ m/s"], answer: "3×10⁸ m/s" },
+  { id: "s5", category: "Science", difficulty: "Easy", question: "Which gas do plants absorb during photosynthesis?", options: ["Carbon Dioxide", "Oxygen", "Nitrogen", "Hydrogen"], answer: "Carbon Dioxide" },
+  { id: "n1", category: "Nigerian Studies", difficulty: "Easy", question: "Nigeria gained independence in which year?", options: ["1960", "1963", "1956", "1970"], answer: "1960" },
+  { id: "n2", category: "Nigerian Studies", difficulty: "Medium", question: "What is the capital city of Nigeria?", options: ["Abuja", "Lagos", "Ibadan", "Kano"], answer: "Abuja" },
+  { id: "n3", category: "Nigerian Studies", difficulty: "Medium", question: "Which Nigerian won the Nobel Prize in Literature?", options: ["Wole Soyinka", "Chinua Achebe", "Ngozi Adichie", "Ben Okri"], answer: "Wole Soyinka" },
+  { id: "n4", category: "Nigerian Studies", difficulty: "Hard", question: "Nigeria has approximately how many languages?", options: ["500+", "100+", "200+", "50+"], answer: "500+" },
+  { id: "n5", category: "Nigerian Studies", difficulty: "Easy", question: "Nigeria is the most populous country in:", options: ["Africa", "West Africa only", "The world", "Asia"], answer: "Africa" },
+  { id: "t1", category: "Technology", difficulty: "Easy", question: "What does 'CPU' stand for?", options: ["Central Processing Unit", "Computer Power Unit", "Core Processing Unit", "Central Program Unit"], answer: "Central Processing Unit" },
+  { id: "t2", category: "Technology", difficulty: "Medium", question: "Which language is primarily used for web styling?", options: ["CSS", "HTML", "JavaScript", "PHP"], answer: "CSS" },
+  { id: "t3", category: "Technology", difficulty: "Medium", question: "What does 'AI' stand for in tech?", options: ["Artificial Intelligence", "Automated Interface", "Advanced Integration", "Algorithm Instruction"], answer: "Artificial Intelligence" },
+  { id: "t4", category: "Technology", difficulty: "Hard", question: "Which protocol is used to send emails?", options: ["SMTP", "HTTP", "FTP", "SSH"], answer: "SMTP" },
+  { id: "t5", category: "Technology", difficulty: "Easy", question: "What does 'www' stand for?", options: ["World Wide Web", "Wide World Web", "Web World Wide", "World Web Wide"], answer: "World Wide Web" },
+  { id: "ec1", category: "Economics", difficulty: "Easy", question: "What is GDP?", options: ["Gross Domestic Product", "General Development Plan", "Growth Domestic Percentage", "Global Demand Product"], answer: "Gross Domestic Product" },
+  { id: "ec2", category: "Economics", difficulty: "Medium", question: "Inflation refers to:", options: ["Rise in general price level", "Fall in prices", "Rise in employment", "Fall in GDP"], answer: "Rise in general price level" },
+  { id: "ec3", category: "Economics", difficulty: "Medium", question: "Supply and demand is a concept from which field?", options: ["Microeconomics", "Macroeconomics", "Finance", "Accounting"], answer: "Microeconomics" },
+  { id: "ec4", category: "Economics", difficulty: "Hard", question: "The naira is the currency of:", options: ["Nigeria", "Ghana", "Togo", "Cameroon"], answer: "Nigeria" },
+  { id: "ec5", category: "Economics", difficulty: "Easy", question: "A budget deficit occurs when:", options: ["Spending exceeds revenue", "Revenue exceeds spending", "Imports exceed exports", "GDP falls"], answer: "Spending exceeds revenue" },
+];
+
+export const MOTIVATIONAL_QUOTES = [
+  { quote: "Education is the most powerful weapon you can use to change the world.", author: "Nelson Mandela" },
+  { quote: "The beautiful thing about learning is that no one can take it away from you.", author: "B.B. King" },
+  { quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.", author: "Winston Churchill" },
+  { quote: "The future belongs to those who believe in the beauty of their dreams.", author: "Eleanor Roosevelt" },
+  { quote: "It always seems impossible until it's done.", author: "Nelson Mandela" },
+  { quote: "Knowledge is power. Information is liberating.", author: "Kofi Annan" },
+  { quote: "An investment in knowledge pays the best interest.", author: "Benjamin Franklin" },
+  { quote: "The roots of education are bitter, but the fruit is sweet.", author: "Aristotle" },
+];
+
+export const CAREERS = [
+  { degree: "Computer Science", paths: ["Software Engineer", "Data Scientist", "Cybersecurity Analyst", "AI Engineer", "Mobile Developer"], avgSalary: "₦800k – ₦2.5M/yr" },
+  { degree: "Engineering", paths: ["Civil Engineer", "Mechanical Engineer", "Electrical Engineer", "Petroleum Engineer", "Biomedical Engineer"], avgSalary: "₦600k – ₦3M/yr" },
+  { degree: "Medicine", paths: ["Medical Doctor", "Surgeon", "Pharmacist", "Medical Researcher", "Public Health Officer"], avgSalary: "₦1.2M – ₦5M/yr" },
+  { degree: "Law", paths: ["Lawyer", "Judge", "Legal Consultant", "Human Rights Advocate", "Corporate Counsel"], avgSalary: "₦700k – ₦4M/yr" },
+  { degree: "Business Administration", paths: ["Business Analyst", "Entrepreneur", "Marketing Manager", "Financial Analyst", "HR Manager"], avgSalary: "₦500k – ₦2.5M/yr" },
+  { degree: "Economics", paths: ["Economist", "Financial Analyst", "Investment Banker", "Policy Analyst", "Statistician"], avgSalary: "₦600k – ₦3M/yr" },
+  { degree: "Mass Communication", paths: ["Journalist", "PR Specialist", "Content Creator", "Broadcaster", "Social Media Manager"], avgSalary: "₦300k – ₦1.5M/yr" },
+  { degree: "Education", paths: ["Teacher", "Education Consultant", "Curriculum Developer", "School Administrator", "Educational Researcher"], avgSalary: "₦350k – ₦1.2M/yr" },
+];
+
+export const SKILLS_DATA = [
+  { id: "sk1", name: "Web Development", category: "Technology", level: "Beginner to Pro", description: "Learn HTML, CSS, JavaScript and modern frameworks like React", duration: "3 months", icon: "globe" },
+  { id: "sk2", name: "Data Science & Analytics", category: "Technology", level: "Intermediate", description: "Python, data visualization, machine learning basics", duration: "4 months", icon: "bar-chart-2" },
+  { id: "sk3", name: "Digital Marketing", category: "Business", level: "Beginner", description: "SEO, social media marketing, content strategy, Google Ads", duration: "6 weeks", icon: "trending-up" },
+  { id: "sk4", name: "Graphic Design", category: "Creative", level: "Beginner", description: "Canva, Photoshop, brand identity, logo design", duration: "2 months", icon: "pen-tool" },
+  { id: "sk5", name: "Public Speaking", category: "Soft Skills", level: "All Levels", description: "Confidence building, presentation skills, debate techniques", duration: "4 weeks", icon: "mic" },
+  { id: "sk6", name: "Mobile App Development", category: "Technology", level: "Intermediate", description: "React Native, Flutter, building and publishing apps", duration: "5 months", icon: "smartphone" },
+  { id: "sk7", name: "Financial Literacy", category: "Finance", level: "Beginner", description: "Budgeting, investing basics, savings strategies for students", duration: "3 weeks", icon: "dollar-sign" },
+  { id: "sk8", name: "Creative Writing", category: "Creative", level: "All Levels", description: "Storytelling, copywriting, content creation, blogging", duration: "6 weeks", icon: "edit-3" },
+  { id: "sk9", name: "Entrepreneurship", category: "Business", level: "All Levels", description: "Startup ideation, business planning, funding strategies", duration: "2 months", icon: "briefcase" },
+  { id: "sk10", name: "Video Editing", category: "Creative", level: "Beginner", description: "CapCut, DaVinci Resolve, YouTube content production", duration: "5 weeks", icon: "video" },
+  { id: "sk11", name: "Cybersecurity Basics", category: "Technology", level: "Beginner", description: "Online safety, ethical hacking intro, network security", duration: "6 weeks", icon: "shield" },
+  { id: "sk12", name: "Leadership & Management", category: "Soft Skills", level: "Intermediate", description: "Team leadership, conflict resolution, project management", duration: "4 weeks", icon: "users" },
+];

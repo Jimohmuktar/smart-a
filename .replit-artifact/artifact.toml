@@ -1,0 +1,27 @@
+kind = "mobile"
+previewPath = "/"
+title = "Smart-A — Smart Academy"
+version = "1.0.0"
+id = "artifacts/smart-a"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+ensurePreviewReachable = "/status"
+name = "expo"
+paths = [ "/" ]
+localPort = 25712
+
+[services.development]
+run = "pnpm --filter @workspace/smart-a run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/smart-a", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/smart-a", "run", "serve" ]
+
+[services.env]
+PORT = "25712"
+BASE_PATH = "/"
